@@ -1,0 +1,17 @@
+  Étape 1 : Mise en place de l'Environnement de Base
+    D'abord, on crée un petit projet Node.js avec Express. 
+    Tu sais déjà faire ça, non ? Si tu veux, je peux te donner les commandes de base.
+
+  Étape 2 : Middleware d'Authentification JWT
+    On va utiliser jsonwebtoken pour gérer l'authentification JWT. 
+    L'idée, c'est de créer un middleware qui va vérifier le token sur les requêtes entrantes.
+
+  Étape 3 : Route /api/secure-data
+    Cette route va renvoyer les données sensibles, mais seulement si le token JWT est valide.
+
+  Étape 4 : Stockage des Données Sensibles
+    Pour les données sensibles, on pourrait les stocker dans Redis. 
+    C'est temporaire et plus sécurisé que de les laisser en dur dans le code.
+
+  Étape 5 : Gestion des Erreurs
+    Si l'utilisateur n'est pas authentifié, on renvoie un 401 Unauthorized.
