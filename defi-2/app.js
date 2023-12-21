@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const authMiddleware = require('./auth.middleware');
 const app = express();
 const jwt = require('jsonwebtoken');
@@ -10,6 +11,9 @@ const client = redis.createClient({
 		port: 6379,
 	},
 });
+
+app.use(cors());
+app.use(express.json());
 
 require('dotenv').config();
 
@@ -30,14 +34,38 @@ app.get('/api/secure-data', authMiddleware, async (req, res) => {
 	}
 });
 
-app.get('/generate-token', (req, res) => {
-	const token = jwt.sign({ username: 'johndoe' }, process.env.JWT_SECRET, {
+app.post('/login/generate-token', (req, res) => {
+	const { email, password } = req.body;
+
+	const isEmailValid =
+		/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+			email
+		);
+	const isPasswordValid = password && password.length > 0;
+
+	if (!isEmailValid) {
+		return res.status(400).json({ error: 'Email invalide', isEmailValid });
+	}
+
+	if (!isPasswordValid) {
+		return res
+			.status(400)
+			.json({ error: 'Mot de passe invalide', isPasswordValid });
+	}
+
+	if (!isEmailValid || !isPasswordValid) {
+		return res
+			.status(400)
+			.json({ error: 'Email ou mot de passe invalide' });
+	}
+
+	const token = jwt.sign({ email }, process.env.JWT_SECRET, {
 		expiresIn: '1h',
 	});
 	res.status(200).json({ token });
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5500;
 app.listen(port, () => {
 	console.log(`Listening on port http://localhost:${port}`);
 });

@@ -1,0 +1,17 @@
+1. Interface de Connexion: Crée un formulaire de connexion en React. 
+Utilise useState pour gérer les inputs et useEffect pour les actions après le montage du composant.
+
+2. Requêtes HTTP: Utilise Axios ou Fetch pour envoyer les données de connexion 
+à ton backend et pour récupérer les données sécurisées une fois l'utilisateur authentifié.
+
+3. Gestion de l'État Global: Avec Redux ou Context API, gère l'état d'authentification 
+(par exemple, stocker le token JWT).
+
+4. Stockage du Token: Choisis entre localStorage ou les cookies pour stocker le token JWT. 
+Utilise des cookies sécurisés ou localStorage en fonction de tes préférences de sécurité.
+
+5. UI pour l'état de chargement et les erreurs: Mets en place un feedback visuel 
+pour l'état de chargement des requêtes et pour afficher les messages d'erreur.
+
+6. Affichage Conditionnel: Affiche les données sécurisées uniquement si l'utilisateur est authentifié.
+
