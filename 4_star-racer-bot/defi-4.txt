@@ -1,0 +1,6 @@
+Défi #4 : "La Course aux Étoiles"
+
+Objectif : Créer un bot en Node.js qui récupère les 10 derniers repos sur GitHub 
+          ayant le tag "JavaScript" et les trie par nombre d'étoiles.
+Technos : Node.js, Axios pour les appels API.
+Limite de temps : 1 heure.

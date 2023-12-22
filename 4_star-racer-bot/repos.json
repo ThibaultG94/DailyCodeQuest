@@ -1,0 +1,62 @@
+[
+  {
+    "name": "angular-ui-tree",
+    "url": "https://github.com/angular-ui-tree/angular-ui-tree",
+    "description": "A tree component for AngularJS, without jQuery as dependency.",
+    "stars": 2583
+  },
+  {
+    "name": "contrast-ratio",
+    "url": "https://github.com/siege-media/contrast-ratio",
+    "description": "A tool to calculate the contrast ratio between any two valid CSS colors.",
+    "stars": 2463
+  },
+  {
+    "name": "goread",
+    "url": "https://github.com/mjibson/goread",
+    "description": "RSS reader in go on app engine; formerly goread.io",
+    "stars": 2387
+  },
+  {
+    "name": "Backbone-relational",
+    "url": "https://github.com/PaulUithol/Backbone-relational",
+    "description": "Get and set relations (one-to-one, one-to-many, many-to-one) for Backbone models",
+    "stars": 2343
+  },
+  {
+    "name": "ngStorage",
+    "url": "https://github.com/gsklee/ngStorage",
+    "description": "localStorage and sessionStorage done right for AngularJS.",
+    "stars": 2337
+  },
+  {
+    "name": "plax",
+    "url": "https://github.com/cameronmcefee/plax",
+    "description": "JQuery powered parallaxing",
+    "stars": 2292
+  },
+  {
+    "name": "BigVideo.js",
+    "url": "https://github.com/johnpolacek/BigVideo.js",
+    "description": "The jQuery Plugin for Big Background Video (and Images)",
+    "stars": 2260
+  },
+  {
+    "name": "react-redux-tutorial",
+    "url": "https://github.com/lewis617/react-redux-tutorial",
+    "description": "react-redux-tutorial in Chinese, catalog && code examples",
+    "stars": 2231
+  },
+  {
+    "name": "material-start",
+    "url": "https://github.com/angular/material-start",
+    "description": "Starter Repository for AngularJS Material",
+    "stars": 2214
+  },
+  {
+    "name": "WeixinApi",
+    "url": "https://github.com/zxlie/WeixinApi",
+    "description": "专门用于微信公众平台的Javascript API",
+    "stars": 2204
+  }
+]
