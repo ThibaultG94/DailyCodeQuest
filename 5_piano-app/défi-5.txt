@@ -1,0 +1,24 @@
+Défi #5 : "Le Pianiste JavaScript"
+
+Objectif : Créer une petite application web qui permet de jouer des notes de musique via le clavier.
+Technos : JavaScript pur ou React, avec l'API Web Audio.
+Limite de temps : 1 heure 30 minutes.
+
+Pour ce défi, tu vas construire une interface simple mais fonctionnelle 
+qui transforme le clavier en clavier de piano virtuel.
+Chaque touche représentera une note différente.
+
+Apparence : L'interface doit ressembler à un clavier de piano avec des touches blanches et noires.
+Tu n'as pas besoin de faire toutes les octaves, une seule peut suffire pour ce défi.
+
+Interactivité : L'utilisateur doit pouvoir cliquer sur les touches du piano 
+ou utiliser le clavier de l'ordinateur pour jouer des notes.
+
+Feedback visuel : Quand une note est jouée, la touche correspondante doit avoir une indication visuelle, 
+comme un changement de couleur ou une animation.
+
+Son : Utilise l'API Web Audio pour générer les sons des notes. 
+Chaque touche doit produire la note correcte.
+
+Responsivité : L'application doit être utilisable aussi bien sur un ordinateur 
+que sur un appareil mobile.
