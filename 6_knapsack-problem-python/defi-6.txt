@@ -1,0 +1,37 @@
+Défi #6 : "L'Algo Mystérieux"
+
+Objectif : Écrire un algorithme en Python qui résout le problème du sac à dos (Knapsack Problem) 
+de manière dynamique.
+
+Technos : Python.
+
+Limite de temps : 1 heure.
+
+Le problème : Imaginons que tu as un sac à dos avec une capacité de poids limitée, 
+et une série d'objets, chacun ayant un poids et une valeur.
+Le but est de maximiser la valeur totale que tu peux emporter 
+sans dépasser la capacité de poids du sac à dos.
+
+Entrées de l'algorithme :
+    Une liste d'objets avec leur poids et leur valeur.
+    La capacité maximale du sac à dos.
+
+Sortie de l'algorithme :
+    La valeur maximale possible qui peut être emportée dans le sac.
+
+Méthode de résolution : Utilise la programmation dynamique pour résoudre le problème de manière optimale
+En gros, tu vas construire un tableau où chaque cellule représente la valeur maximale 
+que tu peux avoir pour un certain poids.
+
+Conseils :
+    Commence par définir une fonction qui prendra les poids, les valeurs et la capacité comme paramètres.
+    Construis un tableau 2D où les lignes représentent les objets et les colonnes 
+représentent les poids jusqu'à la capacité maximale.
+    Remplis le tableau en prenant en compte si l'ajout de l'objet courant dépasse la capacité ou non, 
+et calcule la valeur maximale à chaque étape.
+
+Objets:      A    B    C    D    E
+Poids:       10   20   30   40   50
+Valeurs:     60   100  120  160  200
+
+Ton objectif sera de maximiser la valeur totale dans le sac sans dépasser la capacité totale de 50.

@@ -1,0 +1,12 @@
+pour c de 0 à W faire
+  T[0,c] := 0
+fin pour
+
+pour i de 1 à n faire
+  pour c de 0 à W faire
+    si c>=w[i] alors
+      T[i,c] := max(T[i-1,c], T[i-1, c-w(i)] + p(i))
+    sinon T[i,c] := T([i-1,c])
+    fin si
+  fin pour
+fin pour
