@@ -1,0 +1,27 @@
+Défi #7 : "Le Styliste CSS"
+
+Objectif : Créer une animation CSS qui illustre une fusée décollant vers les étoiles.
+Technos : HTML et CSS pur, avec des keyframes et transitions.
+Limite de temps : 1 heure.
+
+Structure HTML : Crée un fichier HTML avec les éléments de base pour ta fusée et les étoiles.
+                  Utilise des  divs et des éléments de forme simple (comme des rectangles ou des cercles) 
+                  que tu styliseras avec CSS.
+
+CSS Keyframes : Définis des animations avec @keyframes pour simuler le décollage de la fusée. Par exemple, 
+                tu pourrais faire déplacer ta fusée de bas en haut de l'écran tout en accélérant.
+
+Transitions CSS : Utilise des transitions pour ajouter des effets visuels comme des changements de couleur 
+                  ou des éblouissements au moment du décollage.
+
+Rendu de la fusée : La fusée peut être simple, un rectangle pour le corps et un triangle pour le sommet, 
+                    avec peut-être quelques cercles pour les hublots ou les réacteurs.
+                  
+Background : Pour les étoiles, pense à un background noir ou très sombre, et utilise des petites divs 
+              blanches ou des éléments ::before et ::after pour créer des points lumineux.
+
+Responsive Design : Assure-toi que l'animation rend bien sur différents écrans, 
+                    au moins pour les écrans de bureau et les tablettes.
+
+Performance : Garde à l'esprit que les animations CSS peuvent être gourmandes en ressources. 
+              Veille à ce que ton animation soit fluide et ne cause pas de ralentissements.
