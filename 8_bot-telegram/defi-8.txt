@@ -1,0 +1,35 @@
+Défi #8 : "Le Bot Telegram"
+
+Objectif : Créer un bot Telegram qui répond avec des citations inspirantes 
+          quand on lui envoie le mot "inspire-moi".
+
+Technos : Node.js, bibliothèque node-telegram-bot-api.
+
+Limite de temps : 1 heure 30 minutes.
+
+1. Créer le bot Telegram : 
+      Utilise le BotFather sur Telegram pour créer un nouveau bot. Il te donnera un token d'accès.
+                    
+2. Mettre en place l'environnement Node.js : 
+      Installe node-telegram-bot-api via npm : npm install node-telegram-bot-api.
+
+3. Écrire le code du bot : 
+      Importe la bibliothèque dans ton fichier JS.
+      Initialise le bot avec ton token.
+      Utilise bot.on('message', (msg) => {...}) pour écouter les messages.
+      Filtre les messages pour répondre uniquement quand quelqu'un écrit "inspire-moi".
+      Ajoute un tableau de citations inspirantes dans ton script et fais en sorte que le bot 
+        envoie une citation aléatoire en réponse.
+
+4. Tester le bot :
+      Exécute ton script avec Node.js.
+      Parle à ton bot sur Telegram et vérifie qu'il répond correctement.
+
+5. Déploiement :
+      Bien que pour ce défi, le déploiement ne soit pas nécessaire, 
+      pense à comment tu pourrais déployer ton bot sur un serveur pour qu'il soit toujours en ligne.
+
+6. Bonus :
+      Gère les erreurs pour que ton bot ne plante pas si quelque chose d'inattendu se produit.
+      Ajoute des commandes supplémentaires pour plus de fonctionnalités, par exemple /start ou /help.
+      
