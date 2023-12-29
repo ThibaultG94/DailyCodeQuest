@@ -1,0 +1,31 @@
+Défi #9 : "Le Décodeur Secret"
+
+Objectif : Créer un décodeur de messages codés en JavaScript qui utilise la technique du chiffre de César.
+
+Technos : JavaScript pur ou avec une petite interface en HTML/CSS.
+
+Limite de temps : 1 heure.
+
+1. Interface Utilisateur :
+    Crée un champ de texte (<input>) pour que l'utilisateur puisse entrer le message à décoder.
+    Ajoute un deuxième champ pour le décalage (le nombre de positions que chaque lettre a été déplacée).
+    Mets un bouton pour déclencher le décodage.
+
+2. Logique JavaScript :
+    Écris une fonction qui prend le texte codé et le décalage en entrée, et renvoie le texte décodé.
+    La fonction doit gérer la boucle de l'alphabet (par exemple, si tu décalais 'z' de 1, tu obtiendrais 'a').
+    N'oublie pas de gérer à la fois les majuscules et les minuscules.
+
+3. Affichage du résultat :
+    Affiche le résultat du décodage sur la page, soit en mettant à jour un élément du DOM, soit en utilisant alert().
+
+4. Style :
+    Utilise un peu de CSS pour rendre l'interface plus agréable à l'œil.
+
+5. Bonus (si tu as le temps) :
+    Ajoute la capacité de coder des messages en plus de les décoder.
+    Mets en place une vérification pour s'assurer que l'utilisateur entre uniquement des lettres.
+
+Le défi est de construire quelque chose de fonctionnel en une heure. 
+Concentre-toi sur la logique JavaScript avant tout, et si tout va bien, 
+ajoute une touche de style avec CSS.

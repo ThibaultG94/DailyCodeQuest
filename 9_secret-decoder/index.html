@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Décodeur Secret</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1>Décodeur Secret</h1>
+		<div id="decoder">
+			<input
+				type="text"
+				id="messageInput"
+				placeholder="Entrez le message codé ici" />
+
+			<input
+				type="number"
+				id="shiftInput"
+				placeholder="Décalage (nombre entier)" />
+
+			<button id="decodeButton">Décoder</button>
+
+			<input
+				type="text"
+				id="codeInput"
+				placeholder="Entrez le message à coder ou à décoder ici" />
+
+			<button id="encodeButton">Coder</button>
+		</div>
+
+		<div id="result"></div>
+		<div id="encodedResult"></div>
+
+		<script src="./decoder.js"></script>
+	</body>
+</html>
