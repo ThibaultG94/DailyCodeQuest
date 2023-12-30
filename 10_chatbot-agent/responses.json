@@ -1,0 +1,10 @@
+{
+	"bonjour": {
+		"firstTime": "Salut mon reuf, comment puis-je t'aider ?",
+		"repeat": "Toujours là bro, tu as une autre question ?"
+	},
+	"comment ça va": {
+		"firstTime": "Ça roule ma poule, et toi ?",
+		"repeat": "Toujours au top, et toi ? Pas trop de bugs j'espère !"
+	}
+}

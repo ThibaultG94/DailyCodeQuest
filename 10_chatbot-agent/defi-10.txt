@@ -1,0 +1,29 @@
+Défi #10 : "L'Agent Chatbot"
+
+Objectif : Créer un chatbot simple qui répond 
+          à des questions prédéfinies sur une page web.
+
+Technos : Vanilla JavaScript.
+
+Limite de temps : 1 heure 30 minutes.
+
+Conception du Chatbot :
+    Ton chatbot doit être capable de reconnaître et de répondre à quelques commandes ou questions prédéfinies.
+    Par exemple, si l'utilisateur tape "Bonjour", le bot pourrait répondre "Salut, comment puis-je t'aider ?".
+
+Interface Utilisateur :
+    Crée une interface simple avec un champ de texte pour saisir les questions et une zone pour afficher les réponses du chatbot.
+    Ajoute un bouton d'envoi ou fais en sorte que la touche "Entrée" envoie la question.
+
+Logique du Bot :
+    Utilise JavaScript pour stocker les réponses possibles du bot dans un objet ou un switch case.
+    Écris une fonction qui sera déclenchée lors de la soumission d'une question, qui vérifie le contenu et retourne la réponse appropriée.
+
+Interaction :
+    Assure-toi que le chatbot peut gérer un flux de conversation basique, répondant à chaque nouvelle entrée sans perdre le fil des messages précédents.
+    Fournis un moyen pour l'utilisateur de commencer une nouvelle conversation ou de réinitialiser le chat.
+
+Bonus (si tu as le temps) :
+    Ajoute des animations ou transitions CSS pour que l'apparition des messages dans le chat soit plus dynamique.
+    Implémente une certaine forme de "compréhension" simple, par exemple, reconnaître des mots-clés dans les phrases et y répondre de manière appropriée.
+
