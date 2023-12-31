@@ -1,0 +1,36 @@
+Défi #11 : "Le Système Solaire en Mouvement"
+
+Objectif : Utiliser HTML, CSS et un peu de JS pour créer une représentation animée du système solaire.
+
+Technos : HTML, CSS pour les animations, et JavaScript pour la logique.
+
+Limite de temps : 2 heures.
+
+1. Planètes et Orbits :
+    Chaque planète doit être représentée par un élément, et chaque orbite par une forme circulaire.
+    Utilise CSS pour styliser les planètes et leurs orbites. 
+    Tu peux leur donner des couleurs distinctes et des tailles proportionnelles.
+
+2. Animations :
+    Les planètes doivent orbiter autour du soleil à des vitesses différentes. 
+    Utilise des animations CSS avec @keyframes pour créer ce mouvement circulaire.
+    Assure-toi que les animations sont fluides et reflètent la vitesse orbitale réelle des planètes 
+    (pas besoin d'être scientifiquement précis, mais une petite variété dans la vitesse serait cool).
+
+3. Interactivité avec JavaScript :
+    Si l'utilisateur clique sur une planète, affiche quelques informations à son sujet, 
+    comme son nom, sa taille, sa distance au soleil, etc.
+    Tu pourrais aussi permettre aux utilisateurs de démarrer ou d'arrêter les animations des planètes.
+
+4. Responsivité :
+    Ta création devrait être présentable sur des écrans de différentes tailles, 
+    donc garde un œil sur la mise en page responsive.
+
+5. Le Soleil :
+    N'oublie pas de représenter le soleil au centre du système solaire. 
+    Il peut être plus grand et plus lumineux que les autres éléments.
+
+6. Bonus (si tu as le temps) :
+    Ajoute les lunes des planètes, des comètes, ou des astéroïdes pour plus de détails.
+    Crée un "mode nuit" où les utilisateurs peuvent voir le système solaire avec les étoiles en arrière-plan.
+    
