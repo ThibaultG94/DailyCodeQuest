@@ -1,0 +1,30 @@
+Défi #12 : "Le Maitre du Canvas"
+
+Objectif : Utiliser l'élément HTML <canvas> pour dessiner une œuvre d'art interactive.
+
+Effet de Particules : Crée un champ de particules qui réagissent à la position de la souris ou à des clics, se déplaçant ou changeant de couleur de manière interactive.
+
+Peinture Dynamique : Permet à l'utilisateur de "peindre" sur le canvas avec différentes couleurs et formes.
+
+Animation Géométrique : Dessine des formes géométriques qui se déplacent, changent de taille ou de couleur en boucle ou en réponse à des interactions de l'utilisateur.
+
+Technos : HTML5 et JavaScript.
+
+Limite de temps : 1 heure 30 minutes.
+
+1. Effet de Particules : Créer un effet de constellation interactive où chaque particule est une étoile, 
+et le mouvement de la souris trace des constellations temporaires.
+
+2. Peinture Dynamique : En plus de laisser l'utilisateur peindre, tu pourrais intégrer un sélecteur 
+de "brosse" qui change la texture ou le pattern du pinceau. Imagine pouvoir peindre avec des motifs 
+de feuilles, des éclaboussures d'eau, ou même des empreintes digitales!
+
+3. Animation Géométrique : Pourquoi se limiter aux formes classiques? Tu peux programmer des formes 
+qui évoluent, comme des polygones qui gagnent ou perdent des côtés de manière fluide, ou des formes 
+organiques qui semblent respirer.
+
+Aussi, n'oublie pas l'aspect "œuvre d'art". C'est pas juste de la technique, c'est aussi de la création. Réfléchis à un thème ou une histoire que tu veux raconter avec ton canvas. Ça peut être abstrait, comme les émotions ressenties pendant un morceau de musique, ou concret, comme une journée dans une ville animée.
+
+Performance : Gère bien ton animation loop pour éviter de cramer le CPU du visiteur. Utilise requestAnimationFrame pour une boucle d'animation optimisée.
+Accessibilité : Pense à ceux qui n'ont pas de souris. Comment ils interagiraient avec ton œuvre? Peut-être avec le clavier ou par toucher sur mobile.
+Responsive Design : Assure-toi que ton canvas est beau et fonctionne bien sur tous les écrans, grand ou petit.
