@@ -1,0 +1,15 @@
+Défi #13 : "La Machine à Rythmes"
+
+Objectif : Créer une boîte à rythmes simple avec des sons que l'utilisateur peut jouer et combiner.
+
+Technos : JavaScript, et l'API Web Audio pour les sons.
+
+Limite de temps : 2 heures.
+
+1. Créer des boucles et des superpositions : Fais un truc où l'utilisateur peut créer des boucles de rythme et les superposer. Genre une loop de batterie avec une basse qui groove par-dessus.
+
+2. Enregistrer et partager : Implémente une fonctionnalité d'enregistrement. L'utilisateur pourrait enregistrer sa session et la partager sur les réseaux ou la sauvegarder pour plus tard.
+
+3. Live Effects : Ajoute des effets en temps réel, comme du reverb ou un filtre passe-haut, que l'utilisateur peut ajuster pendant qu'il joue les sons.
+
+4. Step Sequencer Visuel : Construis un step sequencer visuel où l'utilisateur peut programmer un pattern rythmique en cliquant sur des cases qui s'illuminent au passage du beat.

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>La Machine à Rythmes</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="drum-machine">
+			<div class="drum-container">
+				<div class="drum-pad" id="clap">
+					<span>Clap</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="clap">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="clap">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="clava">
+					<span>Clava</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="clava">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="clava">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="congas">
+					<span>Congas</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="congas">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="congas">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="cowbell">
+					<span>Cowbell</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="cowbell">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="cowbell">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="cymbal">
+					<span>Cymbal</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="cymbal">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="cymbal">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="hats">
+					<span>Hats</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="hats">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="hats">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="kick">
+					<span>Kick</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="kick">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="kick">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="loops">
+					<span>Loops</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="loops">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="loops">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="maraca">
+					<span>Maraca</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="maraca">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="maraca">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="rimshot">
+					<span>Rimshot</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="rimshot">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="rimshot">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="snare">
+					<span>Snare</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="snare">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="snare">
+							&#9724;
+						</button>
+					</div>
+				</div>
+				<div class="drum-pad" id="toms">
+					<span>Toms</span>
+					<div class="drum-controls">
+						<button class="start-loop" data-sound="toms">
+							&#9654;
+						</button>
+						<button class="stop-loop" data-sound="toms">
+							&#9724;
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<label for="volume">Volume:</label>
+			<input
+				type="range"
+				name="volume"
+				id="volume"
+				min="0"
+				max="1"
+				step="0.01" />
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
