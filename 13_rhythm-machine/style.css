@@ -1,14 +1,19 @@
 body {
 	padding: 0;
 	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	height: 100vh;
 	background-color: #282828;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+.app-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	min-width: 100vw;
 }
 
 #drum-machine {
@@ -63,7 +68,145 @@ body {
 	color: #333;
 }
 
+.volume-controller {
+	margin: 15px;
+}
+
 input[type='range'] {
 	width: 300px;
-	margin-top: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+.controllers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+#controls button {
+	padding: 10px 15px;
+	margin: 5px;
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: transparent;
+	color: white;
+	letter-spacing: 1px;
+}
+
+#record {
+	border: 2px solid red;
+}
+
+#stop {
+	background-color: black;
+}
+
+#controls button:hover,
+.drum-pad button:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+#record:hover .record-dot {
+	background-color: #ff6666;
+}
+
+#stop:hover .stop-square {
+	background-color: #666;
+}
+
+.record-dot {
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background: red;
+	margin-left: 7px;
+	vertical-align: middle;
+}
+
+.stop-square {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-left: 7px;
+	background-color: black;
+	vertical-align: middle;
+}
+
+#sequencer {
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+}
+
+.sequencer-row {
+	display: contents;
+}
+
+.cell {
+	width: 30px;
+	height: 30px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+}
+
+.cell.active {
+	background-color: #76d7c4;
+}
+
+@media screen and (max-width: 1200px) {
+	input[type='range'] {
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.app-container {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		min-width: 0;
+	}
+
+	.controllers {
+		margin-left: 0;
+	}
+
+	input[type='range'] {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	input[type='range'] {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#controls {
+		margin: 20px auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.volume-controller {
+		position: static;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#sequencer {
+		display: none;
+	}
 }
