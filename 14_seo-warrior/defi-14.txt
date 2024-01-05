@@ -1,0 +1,13 @@
+Défi #14 : "Le Guerrier du SEO"
+
+Objectif : Optimiser une page web existante pour le SEO.
+
+Contenu : Rédige un petit article ou un contenu sur un sujet que tu maîtrises bien, 
+comme le développement web, une technologie spécifique, ou même sur les défis de codage.
+
+HTML : Structure ce contenu dans une page HTML en utilisant les éléments sémantiques 
+(<header>, <footer>, <article>, <section>, etc.).
+
+Technos : Analyse de contenu HTML, mise en place de balises meta, structure sémantique.
+
+Limite de temps : 1 heure.
