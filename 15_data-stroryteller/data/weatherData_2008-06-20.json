@@ -1,0 +1,30 @@
+{
+  "lat": 48.8534,
+  "lon": 2.3488,
+  "timezone": "Europe/Paris",
+  "timezone_offset": 7200,
+  "data": [
+    {
+      "dt": 1213999200,
+      "sunrise": 1214020024,
+      "sunset": 1214078269,
+      "temp": 292.69,
+      "feels_like": 292.71,
+      "pressure": 1020,
+      "humidity": 77,
+      "dew_point": 288.55,
+      "clouds": 20,
+      "visibility": 10000,
+      "wind_speed": 1,
+      "wind_deg": 230,
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ]
+    }
+  ]
+}

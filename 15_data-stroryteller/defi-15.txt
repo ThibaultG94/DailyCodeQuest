@@ -1,0 +1,9 @@
+Défi #15 : "Le Storyteller de Données"
+
+Objectif : Créer une visualisation interactive de données qui raconte une histoire. Par exemple, une timeline des événements marquants d'une année ou les stats d'un joueur de foot au fil des saisons.
+
+Technos : JavaScript avec des librairies comme D3.js pour les visualisations, ou même plain JavaScript avec l'élément canvas pour plus de contrôle.
+
+Limite de temps : 2 heures.
+
+Développement : Tu pourrais permettre à l'utilisateur de filtrer les données, d'interagir avec les éléments pour obtenir plus de détails, ou d'animer la transition entre différents états de données. Pense à une interface utilisateur intuitive où les animations et les interactions ne sont pas seulement jolies, mais racontent aussi une partie de l'histoire.

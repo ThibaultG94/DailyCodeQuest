@@ -1,0 +1,39 @@
+{
+  "lat": 48.8534,
+  "lon": 2.3488,
+  "timezone": "Europe/Paris",
+  "timezone_offset": 7200,
+  "data": [
+    {
+      "dt": 740613600,
+      "sunrise": 740634421,
+      "sunset": 740692667,
+      "temp": 289.52,
+      "feels_like": 288.96,
+      "pressure": 1018,
+      "humidity": 67,
+      "dew_point": 283.39,
+      "clouds": 40,
+      "visibility": 10000,
+      "wind_speed": 5.1,
+      "wind_deg": 40,
+      "weather": [
+        {
+          "id": 201,
+          "main": "Thunderstorm",
+          "description": "thunderstorm with rain",
+          "icon": "11n"
+        },
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "rain": {
+        "1h": 0.29
+      }
+    }
+  ]
+}
