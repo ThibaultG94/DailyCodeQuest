@@ -1,0 +1,43 @@
+Défi #16 : "Le Mini-Game Master"
+
+Objectif : Créer un runner 2D où le personnage doit éviter des obstacles
+
+Gameplay : Le personnage court automatiquement de gauche à droite. 
+L'utilisateur doit appuyer sur une touche ou cliquer pour faire sauter le personnage 
+et éviter les obstacles qui arrivent.
+
+Graphismes : Utilise l'API Canvas pour dessiner le personnage, les obstacles, 
+et le décor de fond. Pas besoin de graphismes 3D ou trop complexes, 
+mais rends-le visuellement agréable.
+
+Obstacles : Les obstacles peuvent être des blocs fixes ou des objets volants. 
+Varie les types d'obstacles pour garder le jeu intéressant.
+
+Score et Progression : Ajoute un compteur de score qui augmente avec le temps survécu 
+et le nombre d'obstacles évités. Affiche le score à l'écran.
+
+Game Over : Le jeu se termine quand le personnage heurte un obstacle. 
+Affiche un écran de game over avec le score final et un bouton pour recommencer.
+
+Bonus : Si tu as le temps, ajoute une fonctionnalité de bonus ou power-up, 
+comme un double saut ou une invincibilité temporaire.
+
+Technos : JavaScript et Canvas.
+
+
+Limite de temps : 2 heures pour mettre en place les fonctionnalités de base.
+
+// let lives = 3;
+// let level = 1;
+// let gamePaused = false;
+// let gameStarted = false;
+// let gameEnded = false;
+// let gameWon = false;
+// let gameLost = false;
+// let gameRestarted = false;
+
+let player = {
+	// speed: 5,
+	// dx: 0,
+	// dy: 0,
+};
