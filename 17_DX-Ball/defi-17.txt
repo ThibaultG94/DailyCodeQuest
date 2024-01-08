@@ -1,0 +1,23 @@
+Défi #17 : "Le Maître de DX-Ball"
+
+Objectif : Créer un clone de DX-Ball, le jeu de casse-brique classique. 
+Le joueur doit utiliser une barre pour frapper une balle, détruire des briques 
+et ne pas laisser la balle tomber.
+
+Fonctionnalités clés :
+
+Barre de Contrôle : Une barre que le joueur déplace horizontalement pour rebondir la balle.
+Briques à détruire : Plusieurs rangées de briques que la balle doit casser.
+Système de Score : Un compteur de score qui augmente à chaque brique cassée.
+Power-Ups : Des bonus qui tombent aléatoirement des briques cassées et donnent des pouvoirs 
+temporaires (comme agrandir la barre, multi-balle, etc.).
+Sauvegarde du Score : Un moyen de sauvegarder le meilleur score, localement ou en ligne.
+Game Over et Replay : Un écran de fin de partie avec l'option de recommencer le jeu.
+
+Technos / Langages :
+
+JavaScript pour la logique du jeu.
+HTML5 Canvas pour le rendu graphique.
+CSS pour le styling de base (facultatif si tout est géré via Canvas).
+
+Limite de temps : 3 heures pour implémenter les fonctionnalités de base et créer au moins un niveau jouable.
