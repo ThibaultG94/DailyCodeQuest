@@ -39,8 +39,8 @@ class Ball {
 	}
 
 	launch() {
-		this.speedX = Math.random() * 4 - 2;
-		this.speedY = -2;
+		this.speedX = Math.random() * 20 - 10;
+		this.speedY = -10;
 		this.isMoving = true;
 	}
 
@@ -49,6 +49,9 @@ class Ball {
 		if (this.isMoving) {
 			this.x += this.speedX;
 			this.y += this.speedY;
+		} else {
+			this.x += 0;
+			this.y += 0;
 		}
 	}
 

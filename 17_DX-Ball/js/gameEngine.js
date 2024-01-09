@@ -9,41 +9,44 @@ import {
 	updateBallPosition,
 } from './physics.js';
 import { clearCanvas, updateGameArea } from './rendering.js';
+import { byeBallSound } from './sounds.js';
 
+let ball = {};
+let player;
 export const canvas = document.getElementById('gameCanvas');
 export const ctx = canvas.getContext('2d');
 const positionX = window.innerWidth / 2 - 100;
 const positionY = window.innerHeight + 100;
-const player = new Player(positionX, positionY, 100, 10);
-const ball = new Ball(positionX, positionY - 10, 10);
-let animationFrameId;
 
-export const init = () => {
+export const init = async () => {
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
+	player = new Player(positionX, positionY, 100, 10);
+	await createBall();
+
 	setupInputListener(player, canvas);
 	canvas.addEventListener('click', launchBall);
 
 	startGame();
 };
 
+const createBall = async () => {
+	ball = new Ball(positionX, positionY - 10, 10);
+};
+
 export const resetGame = () => {
+	cancelAnimationFrame(gameState.animationFrameId);
+	ball = {};
 	gameState.score = 0;
 	gameState.level = 1;
-
-	// Réinitialise la position du player
-	player.x = window.innerWidth / 2 - player.width / 2;
-	player.y = window.innerHeight - player.height - 20;
-
-	// Réinitialise la position et l'état de la balle
-	ball.x = player.x + player.width / 2;
-	ball.y = player.y - ball.radius - 5; // Juste au-dessus du player
-	ball.speedX = 0;
-	ball.speedY = 0;
-	ball.isMoving = false;
+	gameState.isGameOver = false;
+	gameState.animationFrameId = null;
 
 	// Important: Supprime l'ancien gestionnaire d'événements pour éviter les doublons
 	canvas.removeEventListener('click', launchBall);
+
+	byeBallSound.pause();
+	byeBallSound.currentTime = 0;
 
 	// Redémarre le jeu
 	init();
@@ -61,11 +64,11 @@ const gameLoop = () => {
 
 		checkWallCollisions(ball, canvas);
 		checkPlayerCollision(ball, player);
-		updateBallPosition(ball);
+		updateBallPosition(ball, player);
 		checkGameOver(ball, canvas);
 	}
 
-	requestAnimationFrame(gameLoop);
+	gameState.animationFrameId = requestAnimationFrame(gameLoop);
 };
 
 const launchBall = () => {
@@ -75,10 +78,10 @@ const launchBall = () => {
 };
 
 const startGame = () => {
-	if (animationFrameId) {
-		cancelAnimationFrame(animationFrameId);
+	if (gameState.animationFrameId) {
+		cancelAnimationFrame(gameState.animationFrameId);
 	}
-	animationFrameId = requestAnimationFrame(gameLoop);
+	gameState.animationFrameId = requestAnimationFrame(gameLoop);
 };
 
 export const togglePause = () => {

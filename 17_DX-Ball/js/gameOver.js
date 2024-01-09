@@ -1,6 +1,7 @@
 import { gameState } from './gameState.js';
 import { resetGame } from './gameEngine.js';
 import { canvas } from './gameEngine.js';
+import { playByeBallSound } from './sounds.js';
 
 const gameOverScreen = document.createElement('div');
 gameOverScreen.className = 'game-over-screen';
@@ -21,6 +22,7 @@ const gameOver = () => {
 
 	document.exitFullscreen();
 
+	playByeBallSound();
 	// Afficher le gameOverScreen
 	gameOverScreen.style.display = 'flex';
 
