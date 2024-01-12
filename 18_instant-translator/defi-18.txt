@@ -1,0 +1,34 @@
+Défi #18 : "Le Traducteur Agile"
+
+Objectif : Créer une application de traduction en temps réel qui permet aux utilisateurs de voir la traduction d'un texte pendant qu'ils le saisissent.
+
+Description :
+Dans ce défi, tu vas mettre en œuvre tes compétences en React et en appel d'APIs pour créer une interface utilisateur simple et réactive. L'utilisateur pourra saisir du texte dans une langue (par exemple, le français) et voir la traduction dans une autre langue (disons l'anglais) s'afficher en temps réel.
+
+Fonctionnalités clés :
+
+Interface utilisateur propre et intuitive.
+Traduction en temps réel sans rechargement de page.
+Utilisation d'une API de traduction publique.
+Gestion efficace de l'état de l'application avec les hooks React.
+Implémentation de debounce pour minimiser les requêtes à l'API.
+
+Critères de Performance :
+
+Temps de réponse de l'application (la traduction doit apparaître sans délai perceptible).
+Exactitude des traductions (elles doivent être cohérentes avec le texte source).
+Conception réactive et adaptative (l'app doit être utilisable sur mobile et desktop).
+
+Technologies Suggérées :
+
+React pour le front-end.
+Axios pour les appels d'API.
+Un service d'API de traduction comme Google Cloud Translation ou une alternative gratuite sur RapidAPI.
+Tailwind CSS pour le styling.
+
+Limites de Temps : 1h30
+
+Bonus :
+
+Ajoute un sélecteur de langue pour le texte source et la traduction.
+Implemente un dark mode pour le design avec Tailwind.
