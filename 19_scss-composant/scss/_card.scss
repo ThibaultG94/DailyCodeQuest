@@ -1,0 +1,50 @@
+.card {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: box-shadow 0.3s;
+	width: 100%;
+	max-width: 300px;
+	margin: 50px auto 0;
+
+	&:hover {
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+	}
+
+	@media (min-width: 600px) {
+		max-width: 500px;
+	}
+}
+
+.card:hover {
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+.card-title {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.card-text {
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
+
+.card .button {
+	margin-bottom: 10px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

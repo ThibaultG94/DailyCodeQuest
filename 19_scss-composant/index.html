@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Composants SCSS</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar" id="navbar">
+				<a href="#home">Home</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+				<a href="javascript:void(0);" class="icon" id="navbarToggle">
+					&#9776;
+				</a>
+			</nav>
+
+			<div class="card">
+				<img
+					src="./assets/img/salem.jpg"
+					alt="Petit chat tout mignon qui dort"
+					class="card-image" />
+
+				<div class="card-body">
+					<h3 class="card-title">Titre de la Carte</h3>
+					<p class="card-text">
+						Ceci est le texte de la carte. Il peut contenir des
+						informations, des descriptions, etc.
+					</p>
+					<button class="button button-small">Petit Click</button>
+					<button class="button" id="button">Cliquez !</button>
+					<button class="button button-large">Grand Click</button>
+				</div>
+			</div>
+
+			<div class="modal-overlay">
+				<div class="modal" role="dialog" aria-labelledby="">
+					<button class="modal-close" aria-label="Close modal">
+						&times;
+					</button>
+					<h2 class="modal-title">Titre de la Modale</h2>
+					<div class="modal-content">
+						<p>
+							Ceci est le contenu de la modale. Mettez ici ce que
+							vous souhaitez afficher.
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button class="button" id="closeButton">Fermer</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>

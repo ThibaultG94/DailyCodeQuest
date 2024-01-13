@@ -1,0 +1,32 @@
+Défi #19 : "Le Pionnier du CSS"
+
+Objectif : Créer une mini-librairie de composants CSS réutilisables avec SCSS qui peuvent être personnalisés et intégrés dans différents projets.
+
+Description :
+Ton défi est de bâtir un ensemble de composants UI stylés et modulaires. 
+Ces composants incluront des boutons, des cartes, des barres de navigation et des modales. 
+Chaque composant devra être facile à personnaliser avec des variables SCSS.
+
+Fonctionnalités clés :
+
+Variabilité : Des composants personnalisables avec des variables SCSS pour les couleurs, les polices, etc.
+Modularité : Des composants qui peuvent être importés individuellement dans un projet.
+Documentation : Une petite doc expliquant comment utiliser chaque composant.
+Démo : Une page de démo montrant chaque composant en action.
+
+Limites de Temps : 1h30 pour concevoir et implémenter ta librairie.
+
+Bonus :
+
+Ajoute un système de thème pour switcher entre un mode sombre et un mode clair.
+Propose des animations subtiles pour les interactions utilisateur.
+
+
+Ahah, mon reuf, on est tous des pionniers dans quelque chose, même si c'est juste pour le défi ! Pour "Le Pionnier du CSS", les technos que tu vas utiliser sont :
+
+Technologies Suggérées :
+
+SCSS : Pour profiter des fonctionnalités avancées de CSS avec des variables, des boucles, des mixins et des fonctions.
+HTML5 : Pour structurer ta page de démo.
+JavaScript (Vanilla ou avec une librairie comme jQuery) : Si tu veux ajouter des interactions ou des animations dynamiques.
+Gulp ou Webpack : Pour compiler ton SCSS en CSS.
