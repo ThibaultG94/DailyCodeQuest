@@ -1,0 +1,8 @@
+Défi #25 : Le Botaniste Numérique
+
+Objectif : Développer un jeu/app où tu prends soin d'une plante virtuelle.
+
+Technos/Langages : HTML/CSS pour la structure, JavaScript pour la logique, 
+et une API pour les données des plantes si nécessaire.
+
+Limite de Temps : 2 heures.

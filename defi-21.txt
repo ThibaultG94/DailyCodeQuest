@@ -1,0 +1,7 @@
+Défi #21 : Le Bâtisseur d'Empires
+
+Objectif : Créer un jeu de stratégie de base où tu construis et gères ton empire.
+
+Technos/Langages : JavaScript avec Phaser.js, ou C# avec Unity.
+
+Limite de Temps : 4 heures.

@@ -1,0 +1,8 @@
+Défi #26 : Le Forgeron de la Musique
+
+Objectif : Créer un algorithme qui génère de la musique.
+
+Technos/Langages : Python avec des bibliothèques comme PyDub ou Supercollider 
+pour la synthèse sonore.
+
+Limite de Temps : 3 heures.

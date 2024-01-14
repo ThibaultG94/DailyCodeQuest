@@ -1,2 +1,6 @@
 .env
+.pcap
+.pcapng
+capture_reseau_1.pcapng
+report.txt
 node_modules/

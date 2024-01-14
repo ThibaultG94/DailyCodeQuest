@@ -1,0 +1,8 @@
+Défi #22 : Le Voyageur Virtuel
+
+Objectif : Créer une expérience de réalité augmentée qui affiche des informations 
+sur les objets du monde réel.
+
+Technos/Langages : Unity ou ARKit/ARCore avec C# ou Java/Kotlin.
+
+Limite de Temps : 3 heures.

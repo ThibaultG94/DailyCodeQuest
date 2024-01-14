@@ -1,0 +1,7 @@
+Défi #20 : Le Détective des Réseaux
+
+Objectif : Analyser le trafic réseau et détecter les anomalies.
+
+Technos/Langages : Python avec Scapy, Wireshark pour la capture de paquets.
+
+Limite de Temps : 2 heures.

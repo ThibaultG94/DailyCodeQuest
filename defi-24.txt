@@ -1,0 +1,8 @@
+Défi #24 : L'Architecte de l'Espace
+
+Objectif : Programmer une simulation spatiale en 3D.
+
+Technos/Langages : Three.js pour la 3D dans un navigateur, ou C++ avec OpenGL
+ pour une application desktop.
+ 
+Limite de Temps : 4 heures.

@@ -1,0 +1,8 @@
+Défi #23 : Le Gardien de Mot de Passe
+
+Objectif : Créer un gestionnaire de mots de passe sécurisé et convivial.
+
+Technos/Langages : Node.js pour le back-end, React pour le front-end, 
+cryptographie avec Crypto-js ou libraries similaires.
+
+Limite de Temps : 3 heures.
